@@ -56,9 +56,9 @@ def main():
 		name = tokens[0]
 		result=clf.predict([processData(name)]);
 		if(result ==0):
-			foutput.write(name+","+"notdgt\n")
+			foutput.write(name+","+"notdga\n")
 		else:
-			foutput.write(name+","+"dgt\n")
+			foutput.write(name+","+"dga\n")
 	f.close();
 	foutput.close();
 
